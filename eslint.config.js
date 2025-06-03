@@ -8,3 +8,7 @@ module.exports = defineConfig([
     ignores: ['dist/*'],
   },
 ]);
+module.exports = {
+  assets: ['../assets/fonts'],
+};
+
