@@ -29,19 +29,19 @@ export default function GulinhaHome() {
       </View>
       <View style={styles.container}>
         <FoodCard ImgReceita={'https://santaamalia.com.br/wp-content/uploads/sites/17/2018/04/shutterstock_560947855.jpg'}
-          Receita={"Macarronada"}
-          Desc={"Macarrao Maximo"}
+          Receita={"Para o almoço em família"}
+          Desc={"Receitas que comportam duas ou mais pessoas!"}
           CorReceita={'Black'}
           CorDesc={'grey'}
-          Rota={'../tabs/explore'} />
+          Rota={'../tabs/receitas1'} />
         <FoodCard ImgReceita={'https://fogons.es/wp-content/uploads/2023/01/StrogonoffPolo-e1674067893725.jpg'}
-          Receita={"Strogonoff"}
-          Desc={"Strogonoff com gostinho \nabrasileirado"}
+          Receita={"Se vira nos 30!"}
+          Desc={"Pratos fáceis e deliciosos"}
           CorReceita={'Black'} CorDesc={'grey'}
           Rota={'../tabs/explore'} />
           <FoodCard ImgReceita={'https://st1.uvnimg.com/91/05/bfb78577421890732bed56e370a6/brownie-caneca-0123.jpg'}
-          Receita={"Brownie de Caneca"}
-          Desc={"Delicioso Brownie\nfeito em uma caneca"}
+          Receita={"Sobremesas simples"}
+          Desc={"Sobremesas fáceis para você!"}
           CorReceita={'Black'} CorDesc={'grey'}
           Rota={'../tabs/explore'} />
       </View>
