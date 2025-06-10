@@ -25,15 +25,15 @@ export default function GulinhaHome() {
     <ScrollView>
       <NavBar></NavBar>
       <View style={styles.titles}>
-        <Text style={{fontFamily:'Roboto', fontWeight: 900, fontSize:40}}>Seu Cantinho de Gostosuras:</Text>
+        <Text style={{fontFamily:'Monospace', fontWeight: 900, fontSize:32}}>Seu Cantinho de Gostosuras:</Text>
       </View>
       <View style={styles.container}>
         <FoodCard ImgReceita={'https://santaamalia.com.br/wp-content/uploads/sites/17/2018/04/shutterstock_560947855.jpg'}
           Receita={"Para o almoço em família"}
-          Desc={"Receitas que comportam duas ou mais pessoas!"}
+          Desc={"Receitas que comportam \nduas ou mais pessoas!"}
           CorReceita={'Black'}
           CorDesc={'grey'}
-          Rota={'../tabs/receitas1'} />
+          Rota={'./receitas1'} />
         <FoodCard ImgReceita={'https://fogons.es/wp-content/uploads/2023/01/StrogonoffPolo-e1674067893725.jpg'}
           Receita={"Se vira nos 30!"}
           Desc={"Pratos fáceis e deliciosos"}
@@ -43,7 +43,7 @@ export default function GulinhaHome() {
           Receita={"Sobremesas simples"}
           Desc={"Sobremesas fáceis para você!"}
           CorReceita={'Black'} CorDesc={'grey'}
-          Rota={'../tabs/explore'} />
+          Rota={'./explore'} />
       </View>
     </ScrollView>
 

@@ -7,7 +7,7 @@ export default function FoodCard({ ImgReceita, Receita, Desc, CorReceita, CorDes
         container: {
             gap: 5,
             height: 120,
-            width: 500,
+            width: "100%",
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
@@ -26,24 +26,26 @@ export default function FoodCard({ ImgReceita, Receita, Desc, CorReceita, CorDes
             borderRadius:15
         },
         containerText: {
-            margin: 15,
-            fontSize: 40,
+            margin: 5,
             height:110,
             display: "flex",
             justifyContent:"flex-start",
             alignItems: "flex-start",
+            textAlign: "left",
         },
         TextReceita: {
-            fontSize: 20,
+            fontSize: 18,
             color: `${CorReceita}`,
             fontWeight: 800,
-            fontFamily: 'Roboto'
+            fontFamily: 'Monospace',
+            textAlign: "left",
         },
         TextDesc: {
             margin: 5,
-            fontSize: 12,
+            fontSize: 14,
             color: `${CorDesc}`,
-            fontFamily: 'Roboto'
+            fontFamily: 'Monospace',
+            textAlign: "left",
         }
     })
     return (
