@@ -1,0 +1,38 @@
+export const MOCK_RECIPES = [
+    {
+        id: '1',
+        title: 'Bolo de Caneca',
+        description: 'Rápido e fácil, perfeito para um lanche.',
+        category: 'lanche',
+        image: 'https://www.minhareceita.com.br/app/uploads/2025/04/R0425-DR-bolo-de-caneca-de-chocolate-650x355-1.webp',
+        ingredients: ['1 ovo', '4 colheres (sopa) de leite', '3 colheres (sopa) de óleo', '2 colheres (sopa) de açúcar', '4 colheres (sopa) de farinha de trigo', '1 colher (sopa) de chocolate em pó', '1/2 colher (chá) de fermento em pó'],
+        instructions: ['1. Na própria caneca, misture o ovo com um garfo.', '2. Adicione o óleo, o açúcar, o leite e o chocolate, e bata mais um pouco.', '3. Acrescente a farinha e o fermento, e mexa até a massa ficar homogénea.', '4. Leve ao micro-ondas em potência máxima por 3 minutos.'],
+    },
+    {
+        id: '2',
+        title: 'Lasanha à Bolonhesa',
+        description: 'Um clássico italiano para toda a família.',
+        category: 'almoco',
+        image: 'https://guiadacozinha.com.br/wp-content/uploads/2014/01/lasanha-bolonhesa-na-pressao.jpg',
+        ingredients: ['500g de massa de lasanha', '500g de carne moída', '2 caixas de molho de tomate', '1 cebola picada', '3 dentes de alho picados', 'Queijo mussarela a gosto', 'Queijo parmesão ralado a gosto'],
+        instructions: ['1. Cozinhe a massa da lasanha conforme as instruções da embalagem.', '2. Refogue a cebola e o alho, adicione a carne moída e cozinhe até dourar. Adicione o molho de tomate e cozinhe por 10 minutos.', '3. Monte a lasanha num refratário: molho, massa, queijo. Repita as camadas.', '4. Finalize com queijo parmesão e leve ao forno pré-aquecido a 180°C por 25 minutos.'],
+    },
+    {
+        id: '3',
+        title: 'Omelete Simples',
+        description: 'Leve e nutritivo para qualquer hora.',
+        category: 'jantar',
+        image: 'https://i.ytimg.com/vi/gY4YpCyxV4Q/maxresdefault.jpg',
+        ingredients: ['2 ovos', 'Sal a gosto', 'Pimenta do reino a gosto', '2 fatias de queijo', '1 colher (sopa) de manteiga'],
+        instructions: ['1. Numa tigela, bata os ovos com o sal e a pimenta.', '2. Derreta a manteiga numa frigideira em fogo médio.', '3. Despeje os ovos batidos e deixe cozinhar até as bordas firmarem.', '4. Adicione o queijo, dobre ao meio e sirva.'],
+    },
+    {
+        id: '4',
+        title: 'Panqueca Americana',
+        description: 'Perfeita para um café da manhã especial.',
+        category: 'lanche',
+        image: 'https://static.itdg.com.br/images/1200-630/34e48b244df56bb8c516375eb418ed45/panqueca-americana.jpg',
+        ingredients: ['1 e 1/4 chávena de farinha de trigo', '1 colher de sopa de açúcar', '3 colheres de chá de fermento em pó', '2 ovos levemente batidos', '1 chávena de leite', '2 colheres de sopa de manteiga derretida'],
+        instructions: ['1. Numa tigela grande, misture a farinha, o açúcar e o fermento.', '2. Noutra tigela, misture os ovos, o leite e a manteiga derretida.', '3. Despeje a mistura líquida sobre os ingredientes secos e mexa apenas até incorporar.', '4. Aqueça uma frigideira untada em fogo médio e despeje porções da massa. Cozinhe até dourar dos dois lados.'],
+    },
+];
